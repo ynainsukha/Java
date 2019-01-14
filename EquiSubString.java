@@ -6,7 +6,7 @@ package helper;
  */
 import java.util.LinkedList;
 
-public class JavaHelper {
+public class JavaChallenge {
 
     /**
      * @param string the input string
