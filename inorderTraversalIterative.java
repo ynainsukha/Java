@@ -8,7 +8,7 @@
  * }
  */
 class Solution {
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversalIterative(TreeNode root) {
         List<Integer> inOrder = new ArrayList<>();
         if(root == null){
             return inOrder;
