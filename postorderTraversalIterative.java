@@ -8,7 +8,7 @@
  * }
  */
 class Solution {
-    public List<Integer> postorderTraversal(TreeNode root) {
+    public List<Integer> postorderTraversalIterative(TreeNode root) {
         List<Integer> postOrder = new ArrayList<>();
         if(root == null){ return postOrder;}
         Stack<TreeNode> nodes = new Stack<>();
